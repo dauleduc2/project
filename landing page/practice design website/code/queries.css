@@ -1,0 +1,160 @@
+/* 1023px-->1200px */
+@media only screen and (max-width: 1500px) {
+  .form-box {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .form-box input[type="text"],
+  .form-box input[type="email"],
+  textarea {
+    width: 200px;
+  }
+  .form-box {
+    width: 350px;
+  }
+  .form-box .btn {
+    margin-left: 40px;
+  }
+}
+/* 768px-->1023px */
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 14px;
+  }
+  .box .btn {
+    font-size: 14px;
+  }
+  .box a {
+    width: 140px;
+  }
+  cite img {
+    width: 50px;
+  }
+  cite {
+    font-size: 14px;
+  }
+  .contact-section {
+    background-size: cover;
+    height: 150vh;
+  }
+  .information-contact {
+    width: 600px;
+    padding-left: 180px;
+  }
+  .form-box {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+/* 481px-->767px */
+@media only screen and (max-width: 767px) {
+  .selection {
+    /* opacity: 0;
+    width: 0; */
+    visibility: hidden;
+  }
+  html {
+    font-size: 12px;
+  }
+  .row-btn .btn {
+    width: 150px;
+  }
+  .box {
+    width: 70%;
+  }
+  .box .btn {
+    width: 30%;
+    margin-left: 20%;
+    height: 1px;
+    font-size: 12px;
+  }
+  .products {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .products .row {
+    width: 80%;
+    margin-left: 23%;
+  }
+  .box ul li {
+    font-size: 20px;
+  }
+  .box p {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+/* <480px */
+@media only screen and (max-width: 480px) {
+  .row-btn .btn {
+    margin-bottom: 15px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .speech {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 30px;
+  }
+  .product {
+    height: auto;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .box h3 {
+    font-size: 12px;
+  }
+  .box .btn {
+    width: 100px;
+  }
+  .box ul li {
+    font-size: 12px;
+  }
+  .box {
+    margin-bottom: 20px;
+  }
+  .testimonials-section {
+    height: auto;
+    padding: 20px;
+  }
+  blockquote {
+    margin-bottom: 20px;
+  }
+  figcaption {
+    visibility: hidden;
+  }
+  .sponsors-section {
+    height: cover;
+    padding: 20px;
+  }
+  .sponsors-section .row {
+    width: 300px;
+  }
+  .sponsors-section .row .of6Sponsors {
+    margin-left: -100px;
+  }
+  .sponsors-section .row .of6Sponsors li {
+    width: 30px;
+    margin-left: 80px;
+  }
+  .sponsors-section .row .of6Sponsors li figure img {
+    width: 120px;
+  }
+  .information-contact {
+    padding-left: 30px;
+  }
+  .form-box {
+    width: 70%;
+  }
+  input[type="submit"] {
+    width: 130px;
+  }
+}

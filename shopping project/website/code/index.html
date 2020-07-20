@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-sanitize.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/2d8dc1cbfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-code.js"></script>
+    <script src="js-code.js"></script>
+  </head>
+
+  <body>
+    <section class="nav-bar-section">
+      <nav class="nav-bar">
+        <div class="logo-section">
+          <a href=""><img src="../img/logo.png" alt="logo" /></a>
+        </div>
+        <div class="search-bar-section">
+          <input type="text" list="list-item-option" />
+          <datalist id="list-item-option">
+            <option value="T-shirt"></option>
+            <option value="PS4"></option>
+            <option value="jeans"></option>
+            <option value="headphone"></option>
+            <option value="guitar"></option>
+          </datalist>
+          <input type="button" value="search" />
+          <br />
+          <ul class="category-list">
+            <a href="">
+              <li><i class="fas fa-fire"></i> hot key:</li>
+            </a>
+            <a href="">
+              <li>T-shirt</li>
+            </a>
+            <a href="">
+              <li>PS4</li>
+            </a>
+            <a href="">
+              <li>jeans</li>
+            </a>
+            <a href="">
+              <li>headphone</li>
+            </a>
+            <a href="">
+              <li>more</li>
+            </a>
+          </ul>
+        </div>
+        <div class="customer-information">
+          <div class="input-area">
+            <a href="../code/login and sign in .html"
+              ><label for="">register</label></a
+            >
+            <a href="../code/login and sign in .html"
+              ><label for="">login</label></a
+            >
+          </div>
+        </div>
+        <div class="shopping-icon">
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </nav>
+    </section>
+    <section class="slide-section">
+      <div class="slide">
+        <div class="content content-1 active"><span>1</span></div>
+        <div class="content content-2"><span>2</span></div>
+        <div class="content content-3"><span>3</span></div>
+        <ul class="control-button">
+          <li class="button"></li>
+          <li class="button"></li>
+          <li class="button"></li>
+        </ul>
+      </div>
+      <div class="ads-area">
+        <div class="first-ads">
+          <img src="../img/ads-1.png" alt="advertisement" />
+        </div>
+        <div class="second-ads">
+          <img src="../img/ads-2.png" alt="advertisement" />
+        </div>
+      </div>
+    </section>
+    <div class="product-area">
+      <!-- start a category -->
+      <section class="category-section">
+        <div class="category-title">
+          <div class="square">t-shirt</div>
+        </div>
+        <div class="product-list">
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">90%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/1.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                White T-shirt with a cool dog ever
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>1000$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">100$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">50%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/2.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                orange T-shirt for going outside
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>100$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">50$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">60%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/3.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                simple purple T-shirt
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>50$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">23$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">35%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/4.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                T-shirt for sport : best choice for practice
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>666$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">450$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">69%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/5.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                t-shirt with hero of us name doctor
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>30$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">7$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">20%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/6.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">10</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                tiger t-shirt with fabric material
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>123$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">97$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">50%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/7.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                t-shirt with viet nam flag
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>10$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">5$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">12%</div>
+              <button class="buy-btn">buy</button>
+              <img src="../img/product/8.png" alt="image of product" />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                buy this shirt to be handsome
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>40$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">35$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+        </div>
+      </section>
+      <!-- end a category -->
+      <!-- start a category -->
+      <section class="category-section">
+        <div class="category-title">
+          <div class="square">smart phone</div>
+        </div>
+        <div class="product-list">
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">10%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Huawei Mate 30 Pro.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Huawei Mate 30 Pro
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>300$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">270$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">50%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Huawei Nova 7i.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Huawei Nova 7i
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>199$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">99$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">30%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/iphone 11 Pro 64GB.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                iphone 11 Pro 64GB
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>1199$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">899$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">35%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Oppo Find X2.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Oppo Find X2
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>300$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">207$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">69%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Samsung Galaxy A21s.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Samsung Galaxy A21s
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>240$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">97$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">20%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Samsung Galaxy Note 10 Lite.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">10</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Samsung Galaxy Note 10 Lite
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>403$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">317$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">50%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Samsung Galaxy S20+ (Plus).png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Samsung Galaxy S20+ (Plus)
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>460$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">230$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">5%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/smart phone/Xiaomi Redmi 8 4GB.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Xiaomi Redmi 8 4GB
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>99$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">90$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+        </div>
+      </section>
+      <!-- end a category -->
+      <!-- start a category -->
+      <section class="category-section">
+        <div class="category-title">
+          <div class="square">trousers</div>
+        </div>
+        <div class="product-list">
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">45%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/JEAN AX INDIGO.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                JEAN AX INDIGO
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>10$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">5$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">50%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/Short Jean Topman.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Short Jean Topman
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>20$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">10$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">60%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/JEAN CLOCK.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                JEAN CLOCK
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>50$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">29$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">35%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/JEAN FAPAS.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                JEAN FAPAS
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>12$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">8$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">53%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/SHORT KAKI JEAN PB.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">10</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                SHORT KAKI JEAN PB
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>30$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">14$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">99%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/Short NKE Air.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Short NKE Air
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>1000$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">10$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">17%</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/JEAN SPD.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Short NKE Air
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>110$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">88$</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+          <!-- start a product box -->
+          <div class="product-box">
+            <div class="image-area">
+              <div class="sale-percent-area"></div>
+              <div class="percent-sale">Free</div>
+              <button class="buy-btn">buy</button>
+              <img
+                src="../img/product/jean/Short PacMan.png"
+                alt="image of product"
+              />
+              <div class="blur-layer"></div>
+              <div class="number-of-love">
+                <div class="icon">
+                  <i class="far fa-heart half-heart"></i>
+                  <i class="fas fa-heart full-heart hide"></i>
+                </div>
+                <div class="count-love">0</div>
+              </div>
+            </div>
+            <div class="detail-of-product">
+              <div class="name-of-product">
+                Short NKE Air
+              </div>
+
+              <div class="price">
+                <div class="before-sale-price">
+                  <strike><strong>1000$</strong></strike>
+                </div>
+                <div class="arrow">----></div>
+                <div class="price-of-product">Free</div>
+              </div>
+            </div>
+          </div>
+          <!-- end a product box -->
+        </div>
+      </section>
+      <!-- end a category -->
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-section">
+        <div class="contact">
+          <label for="contact">contact</label>
+          <div class="information-to-contact">
+            <ul>
+              <li>
+                <i class="fa fa-phone" aria-hidden="true"> </i> Hotline :
+                0869-025-867
+              </li>
+              <li>
+                <i class="fa fa-envelope" aria-hidden="true"></i> email :
+                Dauleduc2@gmail.com
+              </li>
+              <li>
+                <i class="fa fa-facebook-square" aria-hidden="true"> </i
+                ><a href="https://www.facebook.com/duc.dau.731"
+                  >Facebook : https://www.facebook.com/duc.dau.731</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="thank-text">
+          thank for <br />
+          shopping with us
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-sanitize.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://kit.fontawesome.com/2d8dc1cbfe.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="../ma sói/style.css" />
+  <script src="../ma sói/script.js"></script>
+  <script src="../ma sói/jquery.js"></script>
+  <body>
+    <div class="container-fuild">
+      <div class="welcome-section">
+        <h1>Welcome to my game!</h1>
+        <button class="btn btn-warning">Let's play!</button>
+      </div>
+      <div class="row">
+        <div class="col-md-6 announcement-box">
+          <h1>Announcement</h1>
+          <div class="announcement-area" id="scroll1"></div>
+          <button class="btn btn-primary">Play</button>
+          <div class="spiner"></div>
+          <div class="remain-time">30</div>
+          <div class="text-area">
+            <textarea
+              name="textBox"
+              id="textBox"
+              placeholder="Type something to discussion with other people"
+            ></textarea>
+            <input type="button" class="btn" value="Enter" />
+          </div>
+        </div>
+        <div class="col-md-6 display-box">
+          <ul class="informationOfPlayer">
+            <li class="player-box">
+              <div class="my-layer target">
+                <div class="line1"></div>
+                <div class="line2"></div>
+              </div>
+              <img src="../ma sói/meo4.png" alt="you" />
+              <h3>you</h3>
+              <h3 class="yourRole">role : ???</h3>
+            </li>
+            <li class="player-box">
+              <div class="blur-layer target">
+                <i class="fas fa-eye"></i>
+                <div class="line1"></div>
+                <div class="line2"></div>
+              </div>
+              <img src="../ma sói/meo2.png" alt="player1" />
+              <h3>player 1</h3>
+              <h3>role : ???</h3>
+            </li>
+            <li class="player-box">
+              <div class="blur-layer target">
+                <i class="fas fa-eye"></i>
+                <div class="line1"></div>
+                <div class="line2"></div>
+              </div>
+              <img src="../ma sói/meo`.png" alt="player2" />
+              <h3>player 2</h3>
+              <h3>role : ???</h3>
+            </li>
+            <li class="player-box">
+              <div class="blur-layer target">
+                <i class="fas fa-eye"></i>
+                <div class="line1"></div>
+                <div class="line2"></div>
+              </div>
+              <img src="../ma sói/meo3.png" alt="player3" />
+              <h3>player 3</h3>
+              <h3>role : ???</h3>
+            </li>
+            <li class="player-box">
+              <div class="blur-layer target">
+                <i class="fas fa-eye"></i>
+                <div class="line1"></div>
+                <div class="line2"></div>
+              </div>
+              <img src="../ma sói/meo5.png" alt="player4" />
+              <h3>player 4</h3>
+              <h3>role: ???</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
